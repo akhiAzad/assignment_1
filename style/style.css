@@ -16,7 +16,6 @@ color: rgb(255, 255, 255);
 font-size: 20px;
 font-weight: 600;
 text-align: center;
-margin-bottom: 44px;
 margin-top: 32px;
 }
 
@@ -45,10 +44,88 @@ header>section>nav>h2{
   header>section>nav>p{
     width: 852px;
     height: 52px;
+    text-align: center;
+    margin: 0 auto; 
+  }
+
+  .description{
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
     margin: 0 auto; 
   }
+
+  .box1{
+width: 852px;
+height: 115px;
+align-items: center;
+margin-top: 0px;
+margin-bottom: 48px;
+margin-right: 47px;
+margin-left: 47px ;
+padding: 80px 97px 80px 97px;
+  }
+
+  .title{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+padding: 24px;
+margin: 0px auto;
+  }
+
+  .hero{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+  }
+
+  .sub_hero{
+    max-width: 477px;
+    max-height: 220px;
+    /* text-align: left; */
+  }
+
+  .hero_title{
+width: 477px;
+height: 72px;
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+border: none;
+margin: 0px;
+  }
+  .main{
+    padding: 80px 97px 80px 97px ;
+  }
+
+ #Learn{
+width: 150px;
+height: 48px;
+align-items: center;
+padding: 12px 20px 12px 20px;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+ }
+  
+ .uvideo{
+    text-align: center;
+    width: 852px;
+height: 113px;
+margin: 48px 0px;
+ }
+
+ #youtube{
+    max-width: 692px;
+max-height: 347px;
+justify-content: center;
+padding: 32px 32px;
+/* margin: 0px auto; */
+margin-top: 48px;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+ }
