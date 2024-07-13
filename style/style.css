@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
@@ -8,21 +8,23 @@
 
 .btn_primary{
     width: 208px;
-height: 66px;
-padding: 21px 24px 21px 24px;
-border-radius: 8px;
-background: rgb(13, 19, 33);
-color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-text-align: center;
-margin-top: 32px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 32px 0px;
+    cursor: pointer;
 }
 
 header>section>nav>img{
     margin-bottom: 32px;
 }
-  header>section{
+
+header>section{
     background-image: url(../assets/Hero-bg.png);
     max-width: 1440px;
     max-height: 652px;
@@ -41,14 +43,14 @@ header>section>nav>h2{
     margin: 0 auto; 
   }
 
-  header>section>nav>p{
+header>section>nav>p{
     width: 852px;
     height: 52px;
     text-align: center;
     margin: 0 auto; 
   }
 
-  .description{
+.description{
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -56,118 +58,120 @@ header>section>nav>h2{
     margin: 0 auto; 
   }
 
-  .box1{
-width: 852px;
-height: 115px;
-align-items: center;
-margin-top: 0px;
-margin-bottom: 48px;
-margin-right: 47px;
-margin-left: 47px ;
-padding: 80px 97px 80px 97px;
+.box1{
+    width: 852px;
+    height: 115px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    margin-right: 47px;
+    margin-left: 47px ;
+    padding: 80px 97px 80px 97px;
   }
 
-  .title{
+.title{
     color: rgb(13, 19, 33);
-font-size: 32px;
-font-weight: 800;
-text-align: center;
-padding: 24px;
-margin: 0px auto;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding: 24px;
+    margin: 0px auto;
   }
 
-  .hero{
+.hero{
     display: flex;
     padding: 48px;
     justify-content: space-between;
   }
 
-  .sub_hero{
+.sub_hero{
     max-width: 477px;
     max-height: 220px;
     /* text-align: left; */
   }
 
-  .hero_title{
-width: 477px;
-height: 72px;
-color: rgba(13, 19, 33, 0.7);
-font-size: 24px;
-font-weight: 700;
-border: none;
-margin: 0px;
+.hero_title{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin: 0px;
   }
-  .main{
+.main{
     padding: 80px 97px 80px 97px ;
   }
 
- #Learn{
-width: 150px;
-height: 48px;
-align-items: center;
-padding: 12px 20px 12px 20px;
-margin: 32px 0px;
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
+#Learn{
+    width: 150px;
+    height: 48px;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
  }
   
- .uvideo{
+.uvideo{
     text-align: center;
     justify-content: center;
     width: 852px;
     height: 52px; 
+    margin-bottom: 48px ;
  }
 
- #youtube{
-max-width: 592px;
-max-height: 347px;
-justify-content: center;
-text-align: center;
-
-padding: 32px 32px 32px 32px;
-margin-top: 48px;
-margin-bottom: 48px;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
+#youtube{
+    max-width: 592px;
+    max-height: 347px;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 32px 32px 32px;
+    margin: 0 auto;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-bottom: 48px;
  }
 
- .parent{
+.parent{
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 48px;
  }
- .child1{
+.child1{
     border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
-margin-right: 20px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 20px;
  }
 
- .child2{
+.child2{
     border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
-margin-right: 20px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 20px;
  }
 
- .child3{
+.child3{
     border-radius: 16px;
-background: rgba(255, 223, 0, 0.05);
+    background: rgba(255, 223, 0, 0.05);
  }
 
 #gap{
     padding: 20px;
 }
+
 .final{
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1140px;
-height: 314px;
-padding: 64px 48px 64px 48px;
-border-radius: 16px;
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-margin-top: 49px;
+    height: 314px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    margin-top: 49px;
 }
 
 .support{
@@ -178,14 +182,14 @@ margin-top: 49px;
 
 .feedback{
     width: 548px;
-height: 57px;
-align-items: center;
-padding: 19px 20px 19px 20px;
-margin: 0px auto;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-background: rgb(255, 255, 255);
-justify-content: center;
+    height: 57px;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    margin: 0px auto;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
 }
 
 footer{
@@ -196,10 +200,10 @@ footer{
 
 footer>p{
     width: 390px;
-height: 24px;
+    height: 24px;
     color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 footer>div>a{
